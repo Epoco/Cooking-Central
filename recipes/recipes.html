@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Cooking Central</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body onload="login();">
+		<h1>COOKING CENTRAL</h1>
+		<div id="searchInput">
+			<input type="text" id="searchBox" placeholder="Enter some spices or ingredients" onkeyup="handleKeyPress(event);"/>
+			<input type="submit" id="submitButton" value="SEARCH" onclick="handleSubmitButton()";/>
+		</div>
+		<div id="recipes">
+		</div>
+		<script src="client.js"></script>
+	</body>
+</html>
